@@ -81,7 +81,7 @@ nav ul {
 
 .footer-buffer {
 	height: 20px;
-	width: 100%
+	width: 100%;
 	padding: 10px;
 }
 footer {
@@ -151,5 +151,9 @@ footer {
 	color: #32CD32;
 }
 
+footer {
+	position: absolute;
+	bottom: 0;
+}
 
 }
