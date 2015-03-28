@@ -1,0 +1,13 @@
+
+
+@media screen and (min-width: 660px); {
+
+.item {
+	float: left;
+	min-width: 300px;
+	min-height: 200px;
+	margin: 15px;
+	border: 1px #32CD32 solid;
+}
+
+}
