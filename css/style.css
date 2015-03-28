@@ -58,7 +58,7 @@ nav ul {
 }
 
 .work {
-	padding: 0;
+	padding: 35px;
 	max-width: 650px;
 	margin: 25px auto 25px auto;
 }
@@ -70,7 +70,7 @@ nav ul {
 	float: left;
 	width: 100px;
 	height: 65px;
-	margin: 5px;
+	margin: 3px;
 	border: 1px #32CD32 solid;
 }
 
