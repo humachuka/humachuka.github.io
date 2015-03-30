@@ -2,7 +2,9 @@
 	margin: 0;
 	padding: 0;
 }
-
+html {
+	min-height: 100%;
+}
 @font-face {
     font-family: 'CubanoRegular';
     src: url('../fonts/cubano-regular-webfont.eot');
@@ -15,10 +17,16 @@
 
 }
 
+body {
+	min-height: 100%;
+	padding-bottom: 10px;
+}
+
 .container {
 	max-width: 940px;
 	margin: 0 auto;
 }
+
 header {
 	margin-top: 35px;
 }
@@ -78,11 +86,7 @@ nav ul {
 	background-repeat: no-repeat;
 }
 
-.footer-buffer {
-	height: 20px;
-	width: 100%;
-	padding: 10px;
-}
+
 footer {
 	font-family: 'CubanoRegular', sans-serif;
 	clear: both; 
@@ -94,6 +98,7 @@ footer {
 	padding: 15px;
 	font-weight: 100;
 	font-size: .75em;
+	margin-top: 25px;
 }
 
 section {
@@ -104,6 +109,39 @@ section {
 section img {
 	width: 300px;
 	margin: 0 auto;
+}
+
+/** ABOUT PAGE **/
+
+.about-des {
+	width: 250px;
+	margin: 25px auto 0 auto;
+	text-align: center;
+}
+ p {
+ 	margin: 15px;
+	text-align: center;
+}
+.about-des span {
+	color: #32CD32;
+}
+
+.git-pic {
+	padding: 0;
+	width: 55px;
+	margin: 0 auto;
+}
+
+
+.picture {
+	margin: 0 auto;
+	width: 100px;
+	height: 100px;
+	max-width: 300px;
+	max-height: 300px;
+	border-radius: 100%;
+	background: url('../img/me_wife.jpg') left;
+	background-size: cover;	
 }
 
 /** BREAKPOINTS **/
@@ -140,6 +178,8 @@ section img {
     footer {
     	clear: both;
     	min-width: 100%;
+    	position: fixed;
+    	bottom: 
     }
 
     section {
@@ -188,7 +228,7 @@ section img {
 	color: #32CD32;
     }
 
-    footer{
+    .index-footer {
     clear:both;
     min-width: 100%;
     margin: 25px auto -25px auto;
@@ -206,11 +246,13 @@ section img {
     section {
     	width: 1000px;
     	margin: 0 auto;
+    	padding-bottom: 25px;
     }
 
     section img {
     	width: 100%;
     	margin: 0 auto;
+    	padding-bottom: 15px
     }
 
 }
