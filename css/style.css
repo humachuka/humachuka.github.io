@@ -90,7 +90,11 @@ DESIGN GALLERY
 	background-repeat: no-repeat;
 }
 
-
+#item-2 {
+	background-image: url('../img/port-tab-2.png');
+	background-size: :contain;
+	background-repeat: no-repeat;
+}
 footer {
 	font-family: 'CubanoRegular', sans-serif;
 	clear: both; 
@@ -173,6 +177,16 @@ section img {
 	background-size: cover;	
 }
 
+/** ios page **/
+
+#ios-image {
+	display: block;
+	width: 250px;
+	margin: 25px auto 25px auto;
+
+
+}
+
 /** BREAKPOINTS **/
 
 @media screen and (min-width: 480px) {
@@ -229,19 +243,19 @@ section img {
 	}
 
 	.conatainer {
-		max-width: 1200px;
+		max-width: 1400px;
 	}
 
 	.work {
 		padding: 0;
 		margin: 25px auto;
-		max-width: 1000px;
+		max-width: 1200px;
 	}
 	.item {
 		float: left;
 		min-width: 300px;
 		min-height: 225px;
-		margin: 10px;
+		margin: 5px;
 		border: none;
 	}
 
@@ -293,6 +307,10 @@ section img {
 
     .contact-info h4 {
     	font-size: 14px;
+    }
+
+    #ios-image {
+    	width: 640px;
     }
 
 }
