@@ -33,10 +33,11 @@ body {
   color: #fff;
   text-align: center;
   text-shadow: 0 1px 3px rgba(0,0,0,.5);
-  background: url("background-home.jpg");
-  background-size: cover;
+}
 
-  
+#body-home {
+   background: url("background-home.jpg");
+    background-size: cover;
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
@@ -70,6 +71,7 @@ body {
 .masthead-brand {
   display: block;
   margin: 0 auto;
+  width: 40px;
 }
 
 .masthead-nav > li {
@@ -103,6 +105,8 @@ body {
 @media (min-width: 768px) {
   .masthead-brand {
     float: left;
+    width: 50px;
+    padding-top: 5px;
   }
   .masthead-nav {
     float: right;
