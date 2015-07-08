@@ -36,7 +36,7 @@ body {
 }
 
 #body-home {
-   background: url("background-home.jpg");
+   background: url("background-home.jpg") center;
     background-size: cover;
 }
 
