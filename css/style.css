@@ -21,10 +21,12 @@ a:hover {
 
 a:visited {
 	text-decoration: none !important;
-	list-style-type: none;
 	color: #310EED;
 }
 
+a:active {
+	text-decoration: none !important;
+}
 /********** HOME PAGE **********/
 .home-header {
 	position: fixed;
@@ -35,22 +37,27 @@ a:visited {
 
 .logo img {
 	width: 200px;
+	margin-bottom: 20px;
 }
 
 .home-intro {
-	color: #707070;
 	color: #6C7A89;
-	margin-top: 225px;
+	margin-top: 50px;
 	text-transform: uppercase;
 }
 
 .intro-paragraph p {
 	font-family: 'Lato', sans-serif;
-	font-size: 1.55rem;
+	font-size: 1.30rem;
 	letter-spacing: 2px;
 	padding-top: 25px;
+
 }
 
+.intro-paragraph {
+	max-width: 200px;
+	margin: 0 auto;
+}
 .intro-name {
 	color: #fff;
 }
@@ -63,9 +70,17 @@ a:visited {
 	max-width: 600px;
 }
 
-.nav-links a:visited {
-	text-decoration: none;
+.nav-links a:hover {
+	text-decoration: none !important ;
 	color: #310EED;
+}
+
+.nav-links h5 {
+	text-decoration: none;
+}
+.link {
+	text-decoration: none !important ;
+	color: #fff;
 }
 
 .myWork {
@@ -88,7 +103,15 @@ position: relative;
 @media screen and (min-width: 480px) {
 	.logo img {
 	width: 350px;
-}
+	}
+	.home-intro {
+	margin-top: 225px;
+	}
+
+	.intro-paragraph {
+	max-width: 700px;
+	}
+
 
 }
 
