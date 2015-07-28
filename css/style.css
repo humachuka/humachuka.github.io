@@ -121,7 +121,7 @@ p, h1, h2, h3, h4, h5, h6,{
 
 .para {
 	margin: 0 auto;
-	width: 200px;
+	max-width: 200px;
 	font-family: 'Montserrat', sans-serif;
 	letter-spacing: 1.55px;
 	font-size: 1.15rem;
@@ -169,13 +169,20 @@ p, h1, h2, h3, h4, h5, h6,{
 	}
 
 	.whatido {
+	min-width: 500px;	
 	font-size: 1.75rem;
 	margin-top: 35px;
 	}
 	.p-myWork {
 	font-size: 2.2rem;
 	}
-
+	.myWork {
+	height: 450px;	
+	}
+	.para {
+	min-width: 400px;
+	font-size: 1.5rem;
+	}
 }
 
 @media screen and (min-width: 660px) {
@@ -210,10 +217,16 @@ p, h1, h2, h3, h4, h5, h6,{
 	min-width: 300px;
 	max-width: 600px;
 	}
-	
+	.myWork {
+	height: 450px;	
+	}
 	.whatido {
+	min-width: 800px;	
 	font-size: 2.75rem;
 	margin-top: 55px;
 	}
-
+	.para {
+	max-width: 500px;
+	font-size: 1.5rem;
+	}
 }
