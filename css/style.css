@@ -102,9 +102,9 @@ p, h1, h2, h3, h4, h5, h6,{
 .myWork {
 	background: url('../img/myworkbg.jpg') center/cover;
 	box-shadow: inset 0 0 0 1000px rgba(23,26,33,.95);
-	z-index: 3;
+	/*z-index: 3;*/
 	width: 100%;
-	height: 300px;
+	height: 350px;
 	color: #fff;
 }
 
@@ -115,7 +115,7 @@ p, h1, h2, h3, h4, h5, h6,{
 	font-size: 1.25rem;
 	color: #F5A623;
 	font-weight: 700;
-	width: 250px;
+	max-width: 50%;
 	margin: 25px auto 25px auto;
 }
 
@@ -126,6 +126,11 @@ p, h1, h2, h3, h4, h5, h6,{
 	letter-spacing: 1.55px;
 	font-size: 1.15rem;
 	color: #ECF0F1;
+}
+
+.workicons {
+	margin-top: 20px;
+	padding-bottom: 25px;
 }
 
 .casestudies {
@@ -141,27 +146,16 @@ p, h1, h2, h3, h4, h5, h6,{
 }
 
 
-
+.content {
+	min-width: 100%;
+}
 
 
 
 @media screen and (min-width: 480px) {
-	.home-header {
-	position: fixed;
-	height: 805px;
-	width: 100%;
-	}
-
-	.content {
-	position: relative;
-	top: 805px;
-	}
 
 	.logo img {
 	width: 350px;
-	}
-	.home-intro {
-	margin-top: 225px;
 	}
 
 	.intro-paragraph {
@@ -169,15 +163,16 @@ p, h1, h2, h3, h4, h5, h6,{
 	}
 
 	.whatido {
-	min-width: 500px;	
-	font-size: 1.75rem;
+	font-size: 2rem;
 	margin-top: 35px;
+	max-width: 70%;
 	}
+
 	.p-myWork {
 	font-size: 2.2rem;
 	}
 	.myWork {
-	height: 450px;	
+	height: 450px;
 	}
 	.para {
 	min-width: 400px;
@@ -187,9 +182,10 @@ p, h1, h2, h3, h4, h5, h6,{
 
 @media screen and (min-width: 660px) {
 
-	.home-header {
-		height: 805px;
+	.home-intro {
+	margin-top: 225px;
 	}
+
 	.content {
 	position: relative;
 	top: 805px;
@@ -218,13 +214,13 @@ p, h1, h2, h3, h4, h5, h6,{
 	max-width: 600px;
 	}
 	.myWork {
-	height: 450px;	
+	height: 450px;
 	}
-	.whatido {
-	min-width: 800px;	
+	/*.whatido {
+	min-width: 800px;
 	font-size: 2.75rem;
 	margin-top: 55px;
-	}
+	}*/
 	.para {
 	max-width: 500px;
 	font-size: 1.5rem;
