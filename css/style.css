@@ -34,7 +34,7 @@ p, h1, h2, h3, h4, h5, h6,{
 
 
 /*********************
-Mobile 
+Mobile
 *********************/
 
 
@@ -145,22 +145,27 @@ Mobile
 
 
 .contact {
-	height: 500px;
+	height: 350px;
 	background: #fff;
 }
 
 
-.content {
-	min-width: 100%;
+form {
+	max-width: 150px;
+	margin: 0 auto;
+}
+textarea {
+	border-color: #CCCCCC;
 }
 
+/*********************
+Mobile-Landscape
+*********************/
 
 
 @media screen and (min-width: 480px) {
 
-	.logo img {
-	width: 350px;
-	}
+
 
 	.intro-paragraph {
 	max-width: 700px;
@@ -176,7 +181,7 @@ Mobile
 	font-size: 2.2rem;
 	}
 	.myWork {
-	height: 400px;
+	height: 375px;
 	}
 	.para {
 	min-width: 400px;
@@ -189,10 +194,19 @@ Mobile
 
 }
 
+/*********************
+Tablet
+*********************/
+
+
 @media screen and (min-width: 660px) {
 
 	.home-intro {
 	margin-top: 225px;
+	}
+
+	.logo img {
+	width: 350px;
 	}
 
 	.content {
@@ -222,16 +236,20 @@ Mobile
 	min-width: 300px;
 	max-width: 600px;
 	}
-	.myWork {
-	height: 450px;
+
+	.whatido{
+		font-size: 2.25rem;
 	}
-	/*.whatido {
-	min-width: 800px;
-	font-size: 2.75rem;
-	margin-top: 55px;
-	}*/
+	.myWork {
+	height: 400px;
+	}
+
 	.para {
 	max-width: 500px;
 	font-size: 1.5rem;
 	}
+	.workicons {
+		width: 200px;
+	}
+
 }
