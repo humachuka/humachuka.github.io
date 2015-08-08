@@ -104,8 +104,10 @@ Mobile
 
 
 .myWork {
-	background: url('../img/myworkbg.jpg') center/cover;
-	box-shadow: inset 0 0 0 1000px rgba(23,26,33,.95);
+	background: url('../img/whatidobg2.png');
+	/*background: url('../img/whatidobg2.png') center/cover;*/
+	box-shadow: inset 0 0 0 1000px rgba(23,26,33,.775);
+	/*background: #ECF0F1;*/
 	/*z-index: 3;*/
 	width: 100%;
 	height: 350px;
@@ -129,7 +131,7 @@ Mobile
 	font-family: 'Montserrat', sans-serif;
 	letter-spacing: 1.55px;
 	font-size: 1.15rem;
-	color: #ECF0F1;
+	color: #2C3E50;
 }
 
 .workicons {
@@ -140,14 +142,47 @@ Mobile
 .casestudies {
 	width: 100%;
 	height: 300px;
-	background: rgb(23,26,33);
+	padding: 0;
+	margin: 0;
 }
 
+.dcc {
+	width: 100%;
+	height: 100%;
+	background: url('../img/davisconfcent.jpg') center/cover;
+	/*box-shadow: inset 0 0 0 1000px rgba(23,26,33,.75);*/
+	box-shadow: 0;
+	transition: box-shadow 0.3s;
+	/*box-shadow: inset 0 0 0 1000px rgba(225,166,35,.95);*/
+	background-repeat: no-repeat;
+}
+
+.dcc p {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.54rem;
+	margin-top: 55px;
+	color: #fff;
+}
+
+.comingsoonbtn {
+	text-align: center;
+	display: block;
+	width: 155px;
+	border-style:solid;
+	border-color: #fff;
+	padding: 10px;
+	margin: 55px auto 25px auto;
+}
+
+.dcc a:visited {
+	color: #fff;
+}
 
 .contact {
 	height: 350px;
 	background: #fff;
 }
+
 
 
 form {
@@ -223,11 +258,11 @@ Tablet
 
 	.nav-links p:hover {
 	color: #F5A623;
-	-webkit-transition: background 0.5s linear;
+	/*-webkit-transition: background 0.5s linear;
     -moz-transition: background 0.5s linear;
     -ms-transition: background 0.5s linear;
-    -o-transition: background 0.5s linear;
-    transition: 0.3s linear;
+    -o-transition: background 0.5s linear;*/
+    transition:  0.3s linear;
 	text-decoration: none;
 	}
 
@@ -249,7 +284,21 @@ Tablet
 	font-size: 1.5rem;
 	}
 	.workicons {
-		width: 200px;
+		width: 150px;
 	}
+
+	.dcc {
+		height: 400px;
+		box-shadow: 0;
+		transition: box-shadow 0.3s linear;
+	}
+	
+	.dcc:hover {
+		box-shadow: inset 0 0 0 1000px rgba(225,166,35,.95);
+
+	}
+
+
+
 
 }
