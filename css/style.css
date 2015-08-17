@@ -132,6 +132,7 @@ Mobile
 	letter-spacing: 1.55px;
 	font-size: 1.15rem;
 	color: #2C3E50;
+	color: #ECF0F1;
 }
 
 .workicons {
@@ -292,13 +293,34 @@ Tablet
 		box-shadow: 0;
 		transition: box-shadow 0.3s linear;
 	}
-	
+
 	.dcc:hover {
 		box-shadow: inset 0 0 0 1000px rgba(225,166,35,.95);
 
 	}
+	form {
+		margin-top: 25px;
+		max-width: 600px;
+	}
 
+	.message-stuff {
+		float: right;
+		position: relative;
+		bottom: 120px;
+	}
+	input {
+		width: 150px;
+	}
 
+	label {
+		margin: 0;
+		font-size: 1.25rem;
+	}
+
+	textarea {
+		width: 300px;
+		height: 200px;
+	}
 
 
 }
