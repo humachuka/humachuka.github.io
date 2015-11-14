@@ -217,7 +217,7 @@ a.callToAction {
 	margin: 0 auto;
 }
 
-.form {
+form {
 	margin: 0 auto;
 	color: #242625;
 }
@@ -263,6 +263,20 @@ textarea {
 	border-bottom-style: solid;
 	border-bottom-color: #32A142;
 	border-bottom-width: 4px;
+}
+
+.footer {
+	width: 100%;
+	background: #242625;
+	height: 55px;
+	margin-bottom: 0;
+	padding-top: 20px;
+}
+
+.footer-text {
+	color: #ceced0;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 700;
 }
 
 /*********************
@@ -364,19 +378,19 @@ Desktop
 	}
 
 	.contactForm {
-	
-	max-width: 75%;
+	max-width: 65%;
 	}
 	.cLabel {
 	width: 350px;
 	}
 
+
 	textarea {
-	width: 350px;
+	width: 100%;
 
 	}
 	.sendButton {
-	float: none;
+	float: right;
 	}
 
 
