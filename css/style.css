@@ -350,11 +350,13 @@ Desktop
 	}
 
 	.heroText {
-	margin-top: 320px;
+	margin-top: 200px;
  	font-size: 4rem;
  	max-width: 55%;
  	}
-	
+	.scrollClicker {
+		margin-top: 175px;
+	}
 	.aboutMeSection {
 	height: 600px;
 	overflow: none;
