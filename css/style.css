@@ -1,5 +1,6 @@
 
 @import url(https://fonts.googleapis.com/css?family=Dosis:200,500|Raleway:100|Josefin+Sans:100,700|Cardo);
+@import url(https://fonts.googleapis.com/css?family=Raleway:500);
 /*********************
 General Stylings
 *********************/
@@ -32,7 +33,7 @@ a:active {
 
 li {
 	list-style: none;
-	list-style-type: none; 
+	list-style-type: none;
 }
 
 .coloredGreen {
@@ -51,7 +52,7 @@ nav {
 a.navbar-brand.logo {
 	padding: 0;
 }
-	
+
 .navbar {
 	background: rgba(12, 12, 12, 0);
 	border: none;
@@ -79,7 +80,7 @@ a.navbar-brand.logo {
  	margin: 100px auto 0 auto;
  	color: #ceced0;
  	font-family: 'Raleway', sans-serif;
- 	font-weight: 100;
+ 	font-weight: 500;
  	font-size: 1.75rem;
  	max-width: 65%;
  }
@@ -87,7 +88,7 @@ a.navbar-brand.logo {
  .scrollIcon {
  	width:35px;
  }
-	
+
  a.scrollIcon img {
  	display: block;
  	margin: 0 auto;
@@ -180,7 +181,7 @@ a.navbar-brand.logo {
 .packageItem {
 	font-family: 'Josefin Sans', sans-serif;
 	font-weight: 100;
-	font-size: 1.5rem; 
+	font-size: 1.5rem;
 }
 
 a.callToAction {
@@ -352,6 +353,7 @@ Desktop
 	.heroText {
 	margin-top: 200px;
  	font-size: 4rem;
+	font-weight: 100;
  	max-width: 55%;
  	}
 	.scrollClicker {
@@ -368,7 +370,7 @@ Desktop
 	margin-top: 0;
 	color: 242625;
 	font-size: 3.55rem;
-	text-align: left; 
+	text-align: left;
 	}
 
 	.aboutMeText {
@@ -419,24 +421,3 @@ Desktop
 
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
