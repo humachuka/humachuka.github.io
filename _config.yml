@@ -12,3 +12,4 @@ github_username:  humachuka
 
 # Build settings
 markdown: kramdown
+permalink: pretty
