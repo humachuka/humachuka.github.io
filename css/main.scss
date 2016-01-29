@@ -28,6 +28,16 @@ $on-palm:          600px;
 $on-laptop:        800px;
 
 
+@font-face {
+  font-family: Intro;
+  src:url(/assets/Intro.otf);
+}
+
+@font-face {
+  font-family: IntroCondLight;
+  src:url(/assets/IntroCondLightFree.otf);
+}
+
 
 // Using media queries with like this:
 // @include media-query($on-palm) {
@@ -53,12 +63,32 @@ $on-laptop:        800px;
 /***************************
 CUSTOM STYLES
 ***************************/
+// Mobile Layout
+.page-content {
+  padding: 0;
+}
 
-.text-center {
-  text-align: center;
+.site-title {
+  color: #fff;
+  font-family: 'Intro', sans-serif;
+}
+.site-header {
+  background: #252424;
 }
 .hero {
-  background: url('/assets/hero-image.png');
-  height: 650px;
+  display: inline-block;
+  background: url('/assets/hero-image.png') center/cover;
+  height: 300px;
   width: 100%;
+}
+
+.hero-text {
+  color: #fff;
+  font-family: 'IntroCondLight',sans-serif;
+  font-size: 1.25em;
+  max-width: 70%;
+  margin: 75px auto 0 auto;;
+}
+.highlighted {
+  font-family: 'Intro',sans-serif;
 }
